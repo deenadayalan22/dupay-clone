@@ -1,0 +1,87 @@
+html,
+body {
+    height: 100%;
+}
+
+.section {
+    margin-inline: 5%;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.font-size-to-all {
+    font-size: 12px;
+}
+
+.background {
+    background-size: cover;
+    background-image: url(/assets/WhatsApp\ Image\ 2024-05-16\ at\ 14.19.11_eac8505d.jpg);
+}
+
+button {
+    background-color: #3675f4;
+}
+
+.qr-text {
+    height: 140px;
+    width: 378px;
+}
+
+.qr-code {
+    width: 140px;
+}
+
+.qr-card {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+/* second division */
+
+.section-space {
+    margin-inline: 15%;
+}
+
+.icons_size {
+    width: 35px;
+}
+
+.three_division_icons {
+    width: 20px;
+}
+
+.text-background {
+    background-image: linear-gradient(115deg, #f3fbfd, #fdf5fc 98.31%);
+}
+
+.footer {
+    background-image: linear-gradient(90deg, #232778, #492177, #561f76, #761a75);
+}
+
+.line_height {
+    line-height: 40px;
+}
+
+.appstore_logo {
+    width: 75px;
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1400px) {
+    .container_space {
+        margin: auto;
+        width: 85%;
+    }
+
+    .icons_size,
+    .three_division_icons {
+        width: auto;
+    }
+
+    .bottum_qr_code_text {
+        width: 50%;
+    }
+}
